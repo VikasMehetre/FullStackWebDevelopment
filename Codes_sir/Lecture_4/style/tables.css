@@ -1,0 +1,128 @@
+.myborder, .myborder td, .myborder th {
+  border: 1px solid;
+}
+
+.books_width	{
+	width:100%;
+	border: 1px solid;
+}
+
+
+.books_width  td , .books_width th{
+	
+	border: 1px solid;
+}
+.books_collapse , 
+.books_collapse th,
+.books_collapse td
+{
+	border: 1px solid;	
+	  border-collapse: collapse;
+
+}
+
+.books_w100
+{
+	border: 1px solid;	
+	width:100%;
+}
+
+.books_w25
+{
+	border: 1px solid;	
+	width:25%;
+}
+
+.books_w_pix_1
+{
+	width:100px;
+	border: 2px solid red;	
+}
+
+
+/*
+	My Table
+*/
+
+/*
+
+.myTable{
+	  border-collapse: collapse;
+  font-family: sans-serif;
+text-align: center;
+	vertical-align: middle;
+}
+
+.myTable td,
+.myTable th
+{
+	
+	border: 1px solid black;
+	padding: 8px;
+	
+}
+
+.myTable thead th{
+	  width: 20%;
+}
+
+.myTable .objid {
+	width:10%;
+}
+
+
+.rare{
+	background-color: gold;
+  font-weight: bold;
+}
+
+
+.myTable caption {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: right;
+  color: #333;
+}
+
+.myTable thead {
+  background-color: #333;
+  color: white;
+  font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+
+
+.myTable tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.myTable tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.myTable tbody th {
+  background-color: #888;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.myTable tbody tr:nth-child(even) th {
+  background-color: #333;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+

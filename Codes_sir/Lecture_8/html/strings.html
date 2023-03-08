@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>More JavaScript</title>
+			<link rel="stylesheet" href="../css/mystyle.css" />
+
+	</head>
+	<body>
+		<h1>Lecture 8</h1>
+
+		<h2>More JavaScript</h2>
+	<hr/>
+	<ul>
+		<li> <a href="index.html">HOME</a></li>
+		<li> <a href="controlstyle.html">Controlling Styles</a></li>
+		<li> <a href="arrays.html">Arrays</a></li>
+		<li> <a href="strings.html">Strings</a></li>
+
+	</ul>
+	<hr/>
+	<h2>Strings</h2>
+
+
+	<h3>Example 1</h3>
+	<script>
+	frost = "The woods are lovely dark and deep";
+
+	document.write("<br>"+frost);
+	document.write("<br>Length : "+frost.length);
+	document.write("<br>Substring : 4,15 :: "+frost.substring(4,15));
+	document.write("<br>Substr : 10 5 :: "+frost.substr(10,5));
+	document.write("<br>Substr : -5 :: "+frost.substr(-5));
+	document.write("<br>Slice : 4,15 :: "+frost.slice(4,15));
+	document.write("<br>Slice : -4,-10 :: "+frost.slice(-10,-4));
+	document.write("<br>Replace : one string with another :: "+frost.replace("dark","green"));
+	document.write("<br>Upper case ::: "+frost.toUpperCase());
+	document.write("<br>Char At ::: "+frost.charAt(10));
+	frost2 = frost.split(" ");
+	document.write("<br> Frost splitted :: "+frost2);
+
+
+	</script>
+
+
+
+		<h3>Example 2</h3>
+		<script>
+		frost = "    But I have Promises to keep   ";
+
+		document.write("<br>"+frost);
+		document.write("<br>Length : "+frost.length);
+		document.write("<br>Trim ::: "+frost.trim().length);
+
+		frost2 = frost.split(" ");
+		document.write("<br> Frost splitted :: "+frost2);
+
+		</script>
+
+
+
+</body>
+</html>

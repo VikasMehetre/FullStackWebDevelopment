@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>More JavaScript</title>
+			<link rel="stylesheet" href="../css/mystyle.css" />
+			<script src="../js/controlstyle.js" >
+			</script>
+	</head>
+	<body>
+		<h1>Lecture 8</h1>
+
+		<h2>More JavaScript</h2>
+	<hr/>
+	<ul>
+		<li> <a href="index.html">HOME</a></li>
+		<li> <a href="controlstyle.html">Controlling Styles</a></li>
+		<li> <a href="arrays.html">Arrays</a></li>
+		<li> <a href="strings.html">Strings</a></li>
+		
+	</ul>
+	<hr/>
+	<h2>Controlling Styles</h2>
+
+<h3>Example 1</h3>
+<h4>Tic Tac Toe</h4>
+
+	<div class="control">
+		<button class="xo"  onclick="play('X')" >X</button>
+		<button class="xo" onclick="play('O')" >O</button>
+		<input type="button" class="newgame" value="New Game" onclick="clearBoard()" />
+	</div>
+	
+<table align="center">
+	<tr>
+		<td id="1" class="cell" onclick="put(this)" ></td>
+		<td id="2" class="cell"  onclick="put(this)" ></td>
+		<td id="3" class="cell"  onclick="put(this)" ></td>
+	</tr>
+	<tr>
+		<td id="4" class="cell"  onclick="put(this)" ></td>
+		<td id="5" class="cell"  onclick="put(this)" ></td>
+		<td id="6" class="cell"  onclick="put(this)" ></td>
+	</tr>
+	<tr>
+		<td id="7" class="cell"  onclick="put(this)" ></td>
+		<td id="8" class="cell"  onclick="put(this)" ></td>
+		<td id="9" class="cell"  onclick="put(this)" ></td>
+	</tr>
+</table>
+	
+<h3>Example 2</h3>
+<h4>Bread and Butter</h4>
+
+	<div class="control">
+<img  src="../images/bread.png" alt="No Bread  Click to get..." onclick="Bread(this)" />
+<img  src="../images/butter.png" alt="No Butter. Click to get..." onclick="Butter(this)"/>
+	</div>
+	
+
+<h3>Example 3</h3>
+<h4>Chocolate and Cake</h4>
+
+	
+	<button class="showhide" onclick="showHide('chocolate')">Cholocate Visibility</button>
+	<button class="showhide" onclick="showHide('cake')">Cake visibility</button>
+<img id="chocolate" class="cc" src="../images/chocolate.png"  />
+<img id="cake" class="cc" src="../images/cake.png"  />
+	
+		
+		
+
+<h3>Example 4</h3>
+<h4>Ice Cream and Chips</h4>
+
+	
+	<button class="showhide" onclick="displayONOFF('icecream')">Display Ice Cream</button>
+	<button class="showhide" onclick="displayONOFF('chips')">Display Chips</button>
+<img id="icecream" class="cc" src="../images/icecream.png"  />
+<img id="chips" class="cc" src="../images/chips.png"  />
+	
+
+
+<h3>Example 5</h3>
+<h4>Class Control</h4>
+
+	
+	<table  cellpadding="15px" cellspacing="20px">
+		<thead>
+			<tr>
+				<th>Add Class</th>
+				<th>Remove Class</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><a class="xo" href="javascript:updateCSS('add',1)" >1</a></td>
+				<td><a class="xo" href="javascript:updateCSS('remove',1)"  >1</a></td>
+			</tr>
+			<tr>
+				<td><a class="xo" href="javascript:updateCSS('add',2)" >2</a></td>
+				<td><a class="xo" href="javascript:updateCSS('remove',2)"  >2</a></td>
+			</tr>
+			<tr>
+				<td><a class="xo" href="javascript:updateCSS('add',3)" >3</a></td>
+				<td><a class="xo" href="javascript:updateCSS('remove',3)" >3</a></td>
+			</tr>
+		</tbody>
+	</table>
+
+<div id="panel1">
+<p>
+Hardly knowing what she did,
+ she picked up a little bit of 
+ stick, and held it out to the 
+ puppy; whereupon the puppy jumped 
+ into the air off all its feet at once, 
+ with a yelp of delight, and rushed at the stick,
+ and made believe to worry it; then Alice dodged 
+ behind a great thistle, to keep herself from being 
+ run over; and the moment she appeared on the other 
+ side, the puppy made another rush at the stick, 
+ and tumbled head over heels in its hurry to get 
+ hold of it; then Alice, thinking it was very like 
+ having a game of play with a cart-horse, and expecting 
+ every moment to be trampled under its feet, ran round 
+ the thistle again; then the puppy began a series of 
+ short charges at the stick, running a very little way 
+ forwards each time and a long way back, and barking 
+ hoarsely all the while, till at last it sat down a good 
+ way off, panting, with its tongue hanging out of its mouth, 
+ and its great eyes half shut.
+</p>
+<img  src="../images/fire.png"  />
+<img  src="../images/shipping.png"  />
+<img  src="../images/adduser.png"  />
+	
+</div>
+
+</body>
+</html>

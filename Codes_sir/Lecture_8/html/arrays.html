@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>More JavaScript</title>
+			<link rel="stylesheet" href="../css/mystyle.css" />
+			
+	</head>
+	<body>
+		<h1>Lecture 8</h1>
+
+		<h2>More JavaScript</h2>
+	<hr/>
+	<ul>
+		<li> <a href="index.html">HOME</a></li>
+		<li> <a href="controlstyle.html">Controlling Styles</a></li>
+		<li> <a href="arrays.html">Arrays</a></li>
+		<li> <a href="strings.html">Strings</a></li>
+
+	</ul>
+	<hr/>
+	<h2>Arrays</h2>
+
+<h3>Example 1</h3>
+<script>
+x = new Array(1,2,5,8,19);
+for(i=0;i<5;i++){
+	document.write("<br>Element : "+x[i]);
+}
+</script>
+
+
+
+<h3>Example 2</h3>
+<script>
+x = new Array("apple","mango",55,756,5.45,Math.PI);
+for(i=0;i<x.length;i++){
+	document.write("<br>Element : "+x[i]);
+}
+</script>
+
+
+<h3>Example 3</h3>
+<script>
+x = ["one",2,3.3,"<img src='../images/fire.png' />"];
+for(i=0;i<x.length;i++){
+	document.write("<br>Element : "+x[i]);
+}
+</script>
+
+
+<h3>Example 4</h3>
+<script>
+A = [[1,5,-2],
+	[0,2,3],
+	[2,-1,4]];
+B = [[1,2,0],
+	[0,1,1],
+	[1,-1,2]];
+
+document.write("Matrix A:<br>");
+mat = "<table style='width:10%' >";
+for(i=0;i<3;i++){
+	mat += "<tr>";
+	for(j=0;j<3;j++){
+		mat += "<td>"+A[i][j]+"</td>";
+	}
+	mat += "</tr>";
+}
+mat += "</table>";
+document.write(mat);
+
+
+document.write("Matrix B:<br>");
+mat = "<table style='width:10%' >";
+for(i=0;i<3;i++){
+	mat += "<tr>";
+	for(j=0;j<3;j++){
+		mat += "<td>"+B[i][j]+"</td>";
+	}
+	mat += "</tr>";
+}
+mat += "</table>";
+document.write(mat);
+
+
+
+
+</script>
+
+
+
+
+<h3>Example 5</h3>
+<script>
+x = [5,43,5,6,7,5,3];
+
+document.write("<br/>Initial Elements : "+x);
+
+for(i=0;i<5;i++)
+	x.push(i+10);
+
+document.write("<br/>After Push Operation : "+x);
+u = x.pop();
+
+document.write("<br/>Popped element : "+u);
+document.write("<br/>After Pop Operation : "+x);
+
+v = x.shift();
+
+document.write("<br/>Element extracted after shift : "+v);
+document.write("<br/>After Shift Operation : "+x);
+
+
+for(i=0;i<10;i++)
+	x.unshift(i);
+
+document.write("<br/>After UN-Shift Operation : "+x);
+
+x.reverse();
+
+document.write("<br/>After Reverse Operation : "+x);
+
+
+
+x.sort();
+
+document.write("<br/>After Sort Operation : "+x);
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
